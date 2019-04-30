@@ -1,7 +1,7 @@
 
 # Screen Streamer
 
-_Anonymizer_ is a Python package that generates fake data for you. It internally makes use of the [Faker](https://github.com/joke2k/faker) package, and allows you to keep track of the mapping between your original and fake data. This will be especially useful when you are anonymizing data in pandas data frames.
+Capture a portion of your screen at periodic intervals and stream each frame as Numpy arrays (via Websockets) which can be consumed by remote environments. One sample use case would be to stream frames of a video playing on your laptop screen to a remote environment such as  Google Colaboratory, where you can train a neural network using Tensorflow with a GPU. 
 
 ```
   _________                                      _________ __                                              
